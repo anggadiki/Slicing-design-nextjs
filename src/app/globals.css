@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+html {
+  border: 10px;
+  color: black;
+  background-color: white;
+}
