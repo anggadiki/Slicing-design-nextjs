@@ -27,18 +27,24 @@
 } */
 
 * {
-  outline: 2px solid black;
+  /* outline: 2px solid black; */
   padding: 0;
   margin: 0;
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
 }
 
-.hero-title {
-  font-family: "monserrat";
+.text-hero,
+.text-juice {
+  font-family: "Montserrat", sans-serif;
 }
-
 .bg-hero {
   background-image: url("/bg.png");
   height: 700px;
   background-size: cover;
+}
+
+.button {
+  box-shadow: 8px 6px 5px 0px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 8px 6px 5px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 8px 6px 5px 0px rgba(0, 0, 0, 0.29);
 }
