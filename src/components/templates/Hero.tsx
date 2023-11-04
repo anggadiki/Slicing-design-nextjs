@@ -1,10 +1,10 @@
 import HeroContent from "@/components/fragments/HeroContent";
 import Navbar from "@/components/fragments/Navbar";
 
-const HeroViews = () => {
+const Hero = () => {
   return (
     <div className="bg-hero">
-      <div className="container">
+      <div className="">
         <Navbar />
         <HeroContent />
       </div>
@@ -12,4 +12,4 @@ const HeroViews = () => {
   );
 };
 
-export default HeroViews;
+export default Hero;

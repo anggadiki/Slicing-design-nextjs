@@ -14,9 +14,7 @@ const HeroContent = () => {
           <br />
           No Sugar Added. Non Refrigerated
         </p>
-        <Button className="button flex items-center w-40 h-10 bg-[#F8DF00] rounded-md justify-center text-white text-xl p-5 font-semibold">
-          Oder Now
-        </Button>
+        <Button className=" pl-5">Oder Now</Button>
       </div>
       <div className=" flex w-7/12 justify-end -mt-20">
         <img src="/hero.png" alt="" width="800" height="800" />

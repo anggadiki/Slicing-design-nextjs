@@ -1,11 +1,9 @@
-import SectionInfo from "@/components/fragments/SectionContent";
-import HeroViews from "@/views/HeroViews";
+import LandingPageViews from "@/views/LandingPageViews";
 
 const DashboardPage = () => {
   return (
     <>
-      <HeroViews />
-      <SectionInfo />
+      <LandingPageViews />
     </>
   );
 };
