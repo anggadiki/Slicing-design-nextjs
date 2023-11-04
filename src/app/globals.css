@@ -36,12 +36,13 @@
 
 .text-hero,
 .text-juice,
-.text-menu {
+.text-menu,
+.text-menu-top {
   font-family: "Montserrat", sans-serif;
 }
 .bg-hero {
   background-image: url("/bg.png");
-  height: 700px;
+  height: 800px;
   background-size: cover;
 }
 
@@ -49,6 +50,12 @@
   box-shadow: 8px 6px 5px 0px rgba(0, 0, 0, 0.29);
   -webkit-box-shadow: 8px 6px 5px 0px rgba(0, 0, 0, 0.29);
   -moz-box-shadow: 8px 6px 5px 0px rgba(0, 0, 0, 0.29);
+}
+
+.card-menu {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
 .bg-menu {
