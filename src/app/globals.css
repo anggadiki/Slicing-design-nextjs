@@ -37,7 +37,8 @@
 .text-hero,
 .text-juice,
 .text-menu,
-.text-menu-top {
+.text-menu-top,
+.text {
   font-family: "Montserrat", sans-serif;
 }
 .bg-hero {
