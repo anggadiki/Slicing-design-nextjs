@@ -1,7 +1,7 @@
 const Nav = () => {
   return (
-    <div className="mx-auto">
-      <div className=" flex p-2 pt-4">
+    <div className="px-2">
+      <div className=" flex p-2 pt-4 mx-auto">
         <div className=" w-3/12 flex justify-start pl-5">
           <img src="/logo.png" alt="" className=" w-21 h-7" />
         </div>

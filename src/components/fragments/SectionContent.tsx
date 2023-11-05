@@ -1,4 +1,5 @@
 import Button from "../elements/Button";
+import CardInfo from "../elements/Card-Info";
 
 const SectionInfo = () => {
   return (
@@ -17,46 +18,27 @@ const SectionInfo = () => {
       </section>
       <section>
         <div className=" flex text-center justify-center px-20">
-          <div className=" w-4/12 px-5">
-            <div className=" flex justify-center pb-5">
-              <img src="/fruit-1.png" alt="" width="100" height="100" />
-            </div>
-            <div className=" flex h-auto px-5 justify-start py-10 border-[4px] border-[#F68533] rounded-lg text-[#F68533] font-semibold">
-              <p className=" px-10 py-2 leading-relaxed">
-                Get delicious and nutritious 100% fruit juice from Penny Juice
-                of America. Customers prefer our products for their benefits,
-                features, variety, service, and competitive pricing.
-              </p>
-            </div>
-          </div>
-          <div className=" w-4/12 px-5">
-            <div className=" flex justify-center pb-5">
-              <img src="/fruit-2.png" alt="" width="100" height="100" />
-            </div>
-            <div className=" flex h-auto px-5 justify-start py-10 border-[4px] border-[#F68533] rounded-lg text-[#F68533] font-semibold">
-              <p className=" px-10 py-2 leading-relaxed">
-                Get delicious and nutritious 100% fruit juice from Penny Juice
-                of America. Customers prefer our products for their benefits,
-                features, variety, service, and competitive pricing.
-              </p>
-            </div>
-          </div>
-          <div className=" w-4/12 px-5">
-            <div className=" flex justify-center pb-5">
-              <img src="/fruit-3.png" alt="" width="100" height="100" />
-            </div>
-            <div className=" flex h-auto px-5 justify-start py-10 border-[4px] border-[#F68533] rounded-lg text-[#F68533] font-semibold">
-              <p className=" px-10 py-2 leading-relaxed">
-                Get delicious and nutritious 100% fruit juice from Penny Juice
-                of America. Customers prefer our products for their benefits,
-                features, variety, service, and competitive pricing.
-              </p>
-            </div>
-            <div className=" py-10">
-              <Button className="">
-                Get in touch with us if you have any questions!
-              </Button>
-            </div>
+          <CardInfo src="/fruit-1.png">
+            Get delicious and nutritious 100% fruit juice from Penny Juice of
+            America. Customers prefer our products for their benefits, features,
+            variety, service, and competitive pricing.
+          </CardInfo>
+          <CardInfo src="/fruit-2.png">
+            Get delicious and nutritious 100% fruit juice from Penny Juice of
+            America. Customers prefer our products for their benefits, features,
+            variety, service, and competitive pricing.
+          </CardInfo>
+          <CardInfo src="/fruit-3.png">
+            Get delicious and nutritious 100% fruit juice from Penny Juice of
+            America. Customers prefer our products for their benefits, features,
+            variety, service, and competitive pricing.
+          </CardInfo>
+        </div>
+        <div className=" flex w-12/12 justify-end">
+          <div className=" py-10 pr-32">
+            <Button className="py-2">
+              Get in touch with us if you <br /> have any questions!
+            </Button>
           </div>
         </div>
       </section>
