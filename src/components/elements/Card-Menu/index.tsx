@@ -2,7 +2,7 @@ const CardMenu = (props: any) => {
   const { src } = props;
   return (
     <div className=" flex py-10 px-5 ">
-      <div className="card-menu w-60 h-80 bg-[#FFBA83] rounded-3xl py-8">
+      <div className="card-menu xl:w-60 xl:h-80 lg:w-60 lg-h-70 bg-[#FFBA83] rounded-3xl py-8">
         <div className=" mx-auto bg-[#FF9948] rounded-full w-44 h-44 -mt-24"></div>
         <img
           src={src}
@@ -11,7 +11,7 @@ const CardMenu = (props: any) => {
           height="150px"
           className=" mx-auto -mt-[17.8rem] rounded-b-full"
         />
-        <div className="text-menu-top py-4 px-3">
+        <div className="text-menu-top py-4 px-3 lg:py-2">
           <p className="text-white font-semibold text-4xl">
             Banana <br />
             Juice
