@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className="lg:px-2">
       <div
-        className={`lg:hidden flex flex-row w-full bg-gradient-to-b from-[#F68533] to-gray-200 h-full fixed ${
+        className={`lg:hidden flex flex-row w-full bg-gradient-to-b from-[#F68533] transition-all to-gray-200 h-full fixed ${
           offCanvass ? `right-0` : `-right-full`
         }`}
       >
@@ -41,7 +41,7 @@ const Nav = () => {
         <div className=" w-3/12 flex justify-start pl-5">
           <img src="/logo.png" alt="" className=" w-21 h-7" />
         </div>
-        <div className="lg:hidden w-9/12 flex justify-end px-5">
+        <div className="lg:hidden w-9/12 flex justify-end px-5 transition-all">
           <button onClick={() => setOffCanvass(!offCanvass)}>
             <svg
               xmlns="http://www.w3.org/2000/svg"

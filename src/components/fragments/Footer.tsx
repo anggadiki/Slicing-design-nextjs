@@ -3,13 +3,13 @@ import Button from "../elements/Button";
 const Footer = () => {
   return (
     <div className="">
-      <div className=" flex px-20">
-        <div className=" flex flex-col w-5/12 px-5 -mt-12 xl:-mt-28 lg:-mt-36">
-          <div className=" py-1 font-semibold text-6xl text-[#F68533]">
+      <div className=" flex lg:px-20 sm:px-5">
+        <div className=" flex flex-col lg:w-5/12 sm:w-6/12 px-5 -mt-12 xl:-mt-28 lg:-mt-36 sm:-mt-48">
+          <div className=" py-1 font-semibold lg:text-6xl sm:text-4xl text-[#F68533]">
             <p className="text-juice">About</p>
           </div>
           <div className=" flex justify-start">
-            <div className="py-8 w-auto font-semibold text-xl pr-60 text-[#F68533] xl:pr-36 lg:pr-12">
+            <div className="py-8 w-auto font-semibold lg:text-xl sm:text-base pr-60 text-[#F68533] xl:pr-36 lg:pr-2 sm:pr-4">
               <p className="text">
                 Were a family-owned business that was founded in 2001. We have
                 over 40 years of experience in the beverage industry.
@@ -18,8 +18,8 @@ const Footer = () => {
           </div>
           <Button>539-386-1999</Button>
         </div>
-        <div className=" w-7/12">
-          <div className=" flex justify-center px-10 -mt-32 xl:-mt-44 lg:px-3 lg:-mr-10 lg:-mt-52 ">
+        <div className=" lg:w-7/12 sm:w-6/12">
+          <div className=" flex justify-center -mt-32 xl:-mt-44 lg:px-3 lg:-mr-10 lg:-mt-52 sm:-mt-64 ">
             <img src="/Footer.png" alt=" footer" />
           </div>
         </div>

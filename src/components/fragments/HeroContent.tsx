@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "../elements/Button";
 
 const HeroContent = () => {
@@ -17,7 +18,7 @@ const HeroContent = () => {
         <Button className=" pl-5">Oder Now</Button>
       </div>
       <div className=" md:flex w-7/12 justify-end lg:-mt-20 sm:-mt-0">
-        <img
+        <Image
           src="/hero.png"
           alt=""
           width="800"
