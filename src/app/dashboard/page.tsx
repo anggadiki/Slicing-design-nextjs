@@ -1,3 +1,4 @@
+"use client";
 import LandingPageViews from "@/views/LandingPageViews";
 
 const DashboardPage = () => {
