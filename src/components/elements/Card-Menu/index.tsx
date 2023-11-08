@@ -4,7 +4,7 @@ const CardMenu = (props: any) => {
   const { src } = props;
   return (
     <div className=" flex md:py-10 lg:px-5 md:px-3 sm:py-0 sm:justify-center ">
-      <div className="card-menu xl:w-60 xl:h-80 lg:w-60 lg:h-70 bg-[#FFBA83] rounded-3xl lg:py-8 md:py-2 sm:py-0">
+      <div className="card-menu xl:w-60 xl:h-80 lg:w-60 md:w-48 bg-[#FFBA83] rounded-3xl lg:py-8 md:py-2 sm:py-0">
         <div className=" mx-auto bg-[#FF9948] rounded-full w-44 h-44 md:-mt-24 sm:-mt-10"></div>
         <Image
           src={src}
