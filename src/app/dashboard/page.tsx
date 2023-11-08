@@ -4,7 +4,7 @@ import LandingPageViews from "@/views/LandingPageViews";
 const DashboardPage = () => {
   return (
     <>
-      <LandingPageViews />
+      <h1>DashboardPage</h1>
     </>
   );
 };

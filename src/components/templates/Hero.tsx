@@ -1,5 +1,6 @@
 import HeroContent from "@/components/fragments/HeroContent";
 import Navbar from "@/components/fragments/Navbar";
+`use client`;
 
 const Hero = () => {
   return (
