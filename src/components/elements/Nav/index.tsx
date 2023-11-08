@@ -39,7 +39,7 @@ const Nav = () => {
       </div>
       <div className=" flex p-2 pt-4 mx-auto">
         <div className=" w-3/12 flex justify-start pl-5">
-          <img src="/logo.png" alt="" className=" w-21 h-7" />
+          <img src="/logo.png" alt="" className=" md:w-21 md:h-7" />
         </div>
         <div className="lg:hidden w-9/12 flex justify-end px-5 transition-all">
           <button onClick={() => setOffCanvass(!offCanvass)}>

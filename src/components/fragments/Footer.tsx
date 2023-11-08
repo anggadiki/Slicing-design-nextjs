@@ -3,8 +3,8 @@ import Button from "../elements/Button";
 const Footer = () => {
   return (
     <div className="">
-      <div className=" flex lg:px-20 sm:px-5">
-        <div className=" flex flex-col lg:w-5/12 sm:w-6/12 px-5 -mt-12 xl:-mt-28 lg:-mt-36 sm:-mt-48">
+      <div className=" flex lg:px-20 md:px-5 sm:px-1 md:-mt-0 sm:-mt-10 ">
+        <div className=" flex flex-col lg:w-5/12 sm:w-6/12 px-5 -mt-12 xl:-mt-28 lg:-mt-36 md:-mt-48 sm:-mt-0">
           <div className=" py-1 font-semibold lg:text-6xl sm:text-4xl text-[#F68533]">
             <p className="text-juice">About</p>
           </div>
@@ -19,7 +19,7 @@ const Footer = () => {
           <Button>539-386-1999</Button>
         </div>
         <div className=" lg:w-7/12 sm:w-6/12">
-          <div className=" flex justify-center -mt-32 xl:-mt-44 lg:px-3 lg:-mr-10 lg:-mt-52 sm:-mt-64 ">
+          <div className=" flex justify-center -mt-32 xl:-mt-44 lg:px-3 lg:-mr-10 lg:-mt-52 md:-mt-64 sm:-mt-0  ">
             <img src="/Footer.png" alt=" footer" />
           </div>
         </div>

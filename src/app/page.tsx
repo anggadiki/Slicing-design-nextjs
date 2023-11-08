@@ -1,10 +1,13 @@
+import CardMenu from "@/components/elements/Card-Menu";
+import SwiperHp from "@/components/elements/Swiper";
+
 `use client`;
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-6xl font-bold">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
+    <main className="">
+      <div className=" flex px-10 min-h-screen justify-center items-center">
+        <SwiperHp />
+      </div>
     </main>
   );
 }

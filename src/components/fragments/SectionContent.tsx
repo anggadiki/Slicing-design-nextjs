@@ -7,11 +7,11 @@ const SectionInfo = () => {
     <>
       <section>
         <div className="">
-          <div className=" flex sm:px-5 lg:px-20 xl:py-0 lg:py-5 sm:pb-10">
-            <div className=" flex w-6/12 pl-5 xl:-mt-14 font-semibold lg:text-6xl sm:text-4xl text-[#F68533] lg:-mt-32 sm:-mt-28 ">
+          <div className=" flex md:px-5 lg:px-20 xl:py-0 lg:py-5 md:pb-10 sm:px-0">
+            <div className=" flex w-6/12 pl-5 xl:-mt-14 font-semibold lg:text-6xl md:text-4xl sm:text-4xl text-[#F68533] lg:-mt-32 md:-mt-28 sm:-mt-32 ">
               <p className="text-juice">Penny Juice</p>
             </div>
-            <div className=" flex w-6/12 justify-center pr-5 xl:-mt-56 xl:pr-0 xl:justify-end lg:justify-end lg:pr-0 lg:-mt-80 sm:-mt-80">
+            <div className=" flex w-6/12 justify-center md:pr-5 xl:-mt-56 xl:pr-0 xl:justify-end lg:justify-end lg:pr-0 sm:-mt-80 sm:pb-20 md:pb-0">
               <Image
                 src="/jeruk.png"
                 alt=""
@@ -24,7 +24,7 @@ const SectionInfo = () => {
         </div>
       </section>
       <section>
-        <div className=" flex text-center justify-center lg:px-20 sm:px-5">
+        <div className=" flex text-center justify-center lg:px-20 md:px-5">
           <CardInfo src="/fruit-1.png">
             Get delicious and nutritious 100% fruit juice from Penny Juice of
             America. Customers prefer our products for their benefits, features,
@@ -42,8 +42,8 @@ const SectionInfo = () => {
           </CardInfo>
         </div>
         <div className=" flex w-12/12 justify-end">
-          <div className=" lg:py-10 lg:pr-24 sm:py-14 sm:pr-10">
-            <Button className="sm:py-2">
+          <div className=" lg:py-10 lg:pr-24 md:py-14 md:pr-10 sm:py-12 sm:pr-5">
+            <Button className="md:py-2">
               Get in touch with us if you <br /> have any questions!
             </Button>
           </div>

@@ -10,12 +10,12 @@ const CardInfo = (props: any) => {
           alt=""
           width="100"
           height="100"
-          className=" sm:w-[80px] sm:h-[80px] lg:w-[100px] lg:h-[100px]"
+          className=" sm:w-[70px] sm:h-[70px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]"
         />
       </div>
-      <div className=" flex border-[#F68533] border-[4px] rounded-lg py-16 xl:px-1 mx-auto justify-center  xl:py-12 lg:py-9 lg:px-2 sm:py-8 sm:px-2">
+      <div className=" flex border-[#F68533] border-[4px] rounded-lg py-16 xl:px-1 mx-auto justify-center  xl:py-12 lg:py-9 lg:px-2 md:py-8 md:px-2 sm:px-1">
         <div className=" flex mx-auto text-[#F68533] font-semibold w-80 h-auto">
-          <p className="leading-relaxed xl:leading-7 xl:py-2 sm:line-clamp-5">
+          <p className="leading-relaxed xl:leading-7 xl:py-2 md:line-clamp-5 sm:line-clamp-4">
             {children}
           </p>
         </div>
